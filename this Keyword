@@ -1,0 +1,43 @@
+package com.company;
+
+import com.sun.jdi.Value;
+import org.w3c.dom.ls.LSOutput;
+
+import java.security.spec.RSAOtherPrimeInfo;
+import java.util.*;
+class Student
+{
+    int roll_no;
+    String student_name;
+    public Student(int roll_no,String student_name)       
+   {
+       this.roll_no=roll_no;
+       this.student_name=student_name;
+
+   }
+   public void display()
+   {
+       System.out.println(roll_no+" "+student_name);
+   }
+}
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Student obj =new Student(1,"Ram");
+        obj.display();
+
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
